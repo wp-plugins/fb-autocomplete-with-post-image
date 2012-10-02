@@ -1,0 +1,60 @@
+
+.divAutoCompleteResults {
+	border: 1px solid #666;
+	border-bottom: 0px;
+	font-size: 12px;
+	font-family: arial;
+	padding: 0px;
+	display: none;
+   background:white;
+
+}
+
+.divAutoCompleteResults div {
+    padding:7px;
+    border-bottom: 1px solid #666;
+    cursor:pointer;
+    color:rgb(0,0,96);
+    border-bottom: 1px solid #666666;
+    height: 35px;
+    padding: 2px;
+}
+
+.divAutoCompleteResults .selected, .divAutoCompleteResults .selected a {
+	  background:#3b5998;
+    color:#FFFFFF;
+}
+
+
+.divAutoCompleteResults .unselected {
+	background-color: #fff;
+}
+.highlight 
+{
+    font-weight : bold;
+}
+
+.divAutoCompleteResults .unselected.maimulte{
+  background-color:rgb(204,255,153);
+}
+
+.divAutoCompleteResults h3 {
+    font-size:12px;
+    font-weight:bold;
+    font-family:arial;
+    margin:0;
+    padding:0;
+}
+
+.divAutoCompleteResults a {
+    text-decoration:none;
+    color:rgb(0,0,102);
+}
+
+
+.divAutoCompleteResults img {
+   float: left;
+    height: 30px;
+    margin: 3px;
+    width: auto;
+}
