@@ -1,4 +1,4 @@
-=== FB-Autocomplete-with-post-image ===
+﻿=== FB-Autocomplete-with-post-image ===
 
 Contributors: opensourcetech
 Donate Link: 
@@ -13,12 +13,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 This plugin is an extended version of "FB-autosuggest" Wordpress plugin. 
 
 == Description == 
-You can cutomize some options from FB Autocomplete settings page
+You can customize some options from FB Autocomplete settings page
 
 1. If the searchbox id is other than 'OST' you have to change to the serchbox id in your theme
 2. You want more or less than 10 results, you can change Max Results
 3. The width of the div where the results are displayed can be change from 'Div width for serch results', the width is in pixels 
-4. If the div with the results is to close or to far from the seachbox, you can change in 'Margin-top of div results'
+4. If the div with the results is to close or to far from the search box, you can change in 'Margin-top of div results'
 5. You also can change Number of characters to be displayed from the post content
 
 If you want custom changes or styles you can contact us at info@opensourcetechnologies.com
