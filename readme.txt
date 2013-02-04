@@ -38,6 +38,4 @@ Installing FB AutoComplete is very easy:
 
 == Screenshots ==
 
-1. fb-autocomplete1.png
-2. fb-autocomplete2.png
-3. settings.png
+For Screenshots, please visit:<p>http://www.opensourcetechnologies.com/wordpress-plugins/fb-auto-complete-with-post-image.html</p>
