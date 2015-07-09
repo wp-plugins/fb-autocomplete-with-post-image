@@ -27,7 +27,7 @@ $fb_action = '';
 	setup_postdata($post);
 	$content=$post->post_content;
 	$imgpattern = '/src=[\'"]?([^\'" >]+)[\'" >]/';
-	preg_match($imgpattern, $content, $article_image);
+	preg_match($imgpattern, $content, $article_image[1]);
 	?>
 	<div id="ellist">
 	<a href="<?=the_permalink()?>" class="ev">
