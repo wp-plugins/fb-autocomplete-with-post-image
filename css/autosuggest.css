@@ -14,15 +14,14 @@
     padding:7px;
     border-bottom: 1px solid #666;
     cursor:pointer;
-    color:rgb(0,0,96);
     border-bottom: 1px solid #666666;
     height: 35px;
     padding: 2px;
 }
 
 .divAutoCompleteResults .selected, .divAutoCompleteResults .selected a {
-	  background:#3b5998;
-    color:#FFFFFF;
+	  background:;
+    color:rgb(0, 0, 102);
 }
 
 
@@ -46,6 +45,7 @@
     padding:0;
 }
 
+.divAutoCompleteResults a:hover{color:white;}
 .divAutoCompleteResults a {
     text-decoration:none;
     color:rgb(0,0,102);
@@ -53,7 +53,7 @@
 
 
 .divAutoCompleteResults img {
-   float: left;
+   float: none;
     height: 30px;
     margin: 3px;
     width: auto;
