@@ -29,17 +29,13 @@ $fb_action = '';
 	$imgpattern = '/src=[\'"]?([^\'" >]+)[\'" >]/';
 	preg_match($imgpattern, $content, $article_image[1]);
 	?>
-	<div id="ellist">
-	<a href="<?=the_permalink()?>" class="ev">
-	<?php //the_post_thumbnail('thumbnail') 
+	<div id="ellist" onmouseover="this.style.background='rgb(59, 89, 152) none repeat scroll 0 0';" onmouseout="this.style.background='white';">
+	<?php ?><a href="<?=the_permalink()?>" class="ev" >
+	<?php the_post_thumbnail('thumbnail') ;
 	get_PostContent_without_image($content);
-	if ($article_image[1]){
-      $image=$article_image[1]; 
-} else {
-     //$image=ABSPATH.'wp-content/plugins/autosuggest/images/noimage.jpg';
-$image=plugins_url( '/fb-autosuggest/noimage.jpg' , dirname(__FILE__) );
-}?>
-<img src="<?php echo $image; ?>" style="width:30px; height:30px; float:left; margin-right:6px; text-decoration:none; border:none;" />     
+	
+ ?>
+ <a href="<?=the_permalink()?>" class="ev" >  
 <b> <?php echo the_title(); ?> </b>
 </a>  
 </div>       
@@ -67,8 +63,19 @@ function get_PostContent_without_image($content){
 }
 function add_autosuggest_footer_code() {
 ?>
+
 <script type="text/javascript">
-setAutoComplete('s','<?php echo AUTOSUGGEST_DIR; ?>/fb_autosuggest.php?fb_action=query&fb_query=',<?php echo get_fb_option('fb_width',300)?>,<?php echo get_fb_option('fb_margin',15)?>);
+jQuery(document).ready(function(){
+jQuery('input').attr('id','s');
+});
+jQuery('input').click(
+    function(){
+        var test = jQuery(this).attr('id');
+ setAutoComplete(test,'<?php echo AUTOSUGGEST_DIR; ?>/fb_autosuggest.php?fb_action=query&fb_query=',<?php echo get_fb_option('fb_width',300)?>,<?php echo get_fb_option('fb_margin',15)?>);
+    
+    });
+
+    
 </script>
 <?php
 }
