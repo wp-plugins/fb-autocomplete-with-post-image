@@ -4,7 +4,7 @@ Plugin Name: FB Autocomplete with post image
 Plugin URI: 
 Description: This plugin is an extended version of "FB-autosuggest" Wordpress plugin. FB Autocomplete with post image plugin fetch image from the post not from featured image . This plugin can be use to create members under some category. Another important thing about the plugin is that it is using wordpress own Jquery.
 Author: OpenSource Technologies Pvt. Ltd, India
-Version: 1.0
+Version: 1.1
 Author URI: http://www.opensourcetechnologies.com
 Licensing : http://www.gnu.org/licenses/gpl-3.0.txt
 */
