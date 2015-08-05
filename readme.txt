@@ -26,6 +26,9 @@ This plugin is an extended version of "FB-autosuggest" Wordpress plugin.
 
 Need custome chnages, contact us at info@opensourcetechnologies.com
 
+<p>For video tutorial : <a href="https://www.youtube.com/watch?v=FqYSohWVamM&feature=youtu.be">Click here</a>
+</p>
+
 == Installation == 
 
 Installing FB AutoComplete is very easy:
