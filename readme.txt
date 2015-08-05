@@ -41,9 +41,10 @@ Installing FB AutoComplete is very easy:
 == Changelog==
 
 Version - 1.1
-1.Fixed bugs.
-2.Improved performance.
-2.Now Compatibility with all the themes.
+
+1. Fixed bugs.
+2. Improved performance.
+2. Now Compatibility with all the themes.
 
 == Screenshots ==
 
